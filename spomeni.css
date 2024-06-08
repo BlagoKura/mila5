@@ -1,0 +1,78 @@
+body {
+    background-color: #663737;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    background-image: url('17.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Make the background image cover the entire element */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Make the background image stay fixed when scrolling */
+    background-position: center; /* Center the background image */
+    
+}
+
+.section {
+    margin-bottom: 40px;
+    text-align: center;
+    border: 7px solid #000000; /* Add a 2px solid white border */
+    padding: 20px; /* Add some padding around the text */
+}
+
+.section p {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 7px solid #000000; /* Add a 2px solid white border */
+    padding: 20px; /* Add some padding around the text */
+    background-color: #af5d5d; /* Add a black background */
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 1); /* Dark background color */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(51, 51, 51, 1); /* Dark background color */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* footer.css */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(51, 51, 51, 1); /* Dark background color */
+    color: #fff;
+}
+#specific-image {
+    max-width: 700px;
+    height: auto;
+}
+
